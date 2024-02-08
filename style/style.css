@@ -1,0 +1,118 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500;700&display=swap');
+*{
+    
+}
+
+/* content */
+.conteiner{
+    background-color: #fff;
+}
+nav>button{
+    color: aliceblue;
+    background-color: #6A2101;
+    border: solid 1px #6A2101;
+    border-radius: 250px;
+    font-weight: 400;
+    padding: 15px 20px;
+}
+/* title */
+.section{
+    width: 100%;
+    max-height: max-content;
+}
+.section-title{
+    background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(0,0,0,0.35)), url("../images/iradion.jpg");
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: auto;
+}
+.general-title, .about_us_text{
+    font-family: 'Montserrat', sans-serif;
+}
+.img-title{
+    /* width: 300px;
+    height: 200px; */
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+/* .img-title{
+    width: 22.5%;
+} */
+.btn{
+    background-color: #6A2101;
+    border: none;
+}
+.btn>a{
+    color: aliceblue;
+}
+/* header btn */
+.tsdoka{
+    color: aliceblue;
+}
+.tsdoka:hover{
+    color: black;
+    transition: 0.2s;
+}
+/*  */
+.btn:hover{
+    background: none;
+    border: #6A2101 1px solid;
+    transition: 0.5s;
+}
+.btn:hover>a{
+    color: black;
+    font-weight: 600;
+    transition: 0.2s;
+}
+/* about ud */
+.about-title{
+    text-transform:uppercase;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+.card{
+    background-color: #f9eddebe;
+    box-shadow: 1px 2px 6px rgba(0,0,0,0.3);
+}
+.card-img{
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.card-text, .texxt_about_us{
+    text-align: justify;
+}
+@media (hover :hover){
+    .btn:hover>a{
+        color: black;
+        transition: 0.2s;
+    }
+    .tsdoka:hover{
+        color: black;
+        transition: 0.2s;
+    }
+}
+@media screen and (max-width: 770px)  {
+    .section-title{
+        background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(0,0,0,0.35)), url("../images/iradion.jpg");
+        background-attachment: fixed;
+        background-position: inherit;
+        background-repeat: no-repeat;
+        background-size:contain;
+        height: auto;
+    }
+    @media screen and (max-width: 380px){
+        .section-title{
+            background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(0,0,0,0.35)), url("../images/iradion.jpg");
+            background-attachment: fixed;
+            background-position: top;
+            background-repeat: no-repeat;
+            background-size:contain;
+            height: auto;
+        }
+    }
+}
